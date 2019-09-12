@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "rabidrabbits",
+  "version": "1.0",
+
+  "name": "Rabid Rabbits",
+  "description": "Turns rabbit hostile after dark",
+  "authors": [
+    "Max Sonebäck"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/MaxSoneback/RabidRabbits"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/RabidRabbits/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.slotigork.Main"
+    ]
+  },
+  "mixins": [
+    "RabidRabbits.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
